@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Joy-Ghoshs blog</title>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='container'>
+  <header>
+    <h1>Joy Ghosh</h1>
+    <p>
+      Hey I am <a href="http://facebook.com/notavilablerightnow" target="_blank">Joy Ghosh</a>
+      ,This is my blog , where i share all of my writeup and research.
+    </p>
+    <p class='small'>
+     You can contact me through <a href="http://twitter.com/0xjoyghosh" target="_blank">[Twitter]</a> <a href="mailto:eng.joyghosh@gmail.com" target="_blank">[Email]</a>
+    </p>
+  </header>
+  <main>
+    <div class='items'>
+      <div class='item'>
+        <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
+          <defs>
+            <clipPath id='clip-0'>
+              <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+            </clipPath>
+          </defs>
+          <text class='svg-text' dy='.3em' x='50%' y='50%'>
+            Test-Post
+          </text>
+          <g clip-path='url(#clip-0)'>
+            <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='https://www.hackthebox.eu/images/htb_socialmedia_cover.png'></image>
+            <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+            Test-Post
+            </text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </main>
+</div>
+<div class='options'>
+  <button class='dark'></button>
+  <button class='light'></button>
+</div>
+  <script  src="./script.js"></script>
+<center><small> Copyright &copy; [<span id="year"></span>] Joy Ghosh </small></center>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</body>
+</html>
